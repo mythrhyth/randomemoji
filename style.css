@@ -1,0 +1,35 @@
+body{
+    background-color: #ccc; 
+}
+.emoji{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 10rem;
+    font-size: 15rem;
+    filter: grayscale(1); 
+    cursor: pointer; 
+    
+}
+.emoji:hover{
+    transform: scale(1.2);
+    filter: grayscale(0); 
+
+}
+.grey{
+    color: grey;
+}
+@media only screen and (max-width: 400px) {
+    div{
+        display: grid; 
+        place-items: center; 
+    }
+    .emoji{
+        padding: 7rem; 
+        font-size: 4rem;
+
+
+    }
+
+}
+
